@@ -10,4 +10,11 @@ UPDATE N0uxK4lRK_posts SET post_content = replace(post_content, 'http://localhos
 UPDATE N0uxK4lRK_postmeta SET meta_value = replace(meta_value, 'http://localhost/projects/qsgen/', 'http://localhost/projects/qs-projects/qsgen/');
 
 
+
+Upload SQl in Local : 
+
+cd C:\xampp\mysql\bin
+ 
+C:\xampp\mysql\bin>mysql -u root -p titaniumsui < C:\xampp\htdocs\folder\titaniumsui_db.sql
+
 ?>
