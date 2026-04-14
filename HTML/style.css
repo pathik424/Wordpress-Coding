@@ -1,21 +1,26 @@
-h1 {
-    color: red;
+*{
+    font-family: 'Times New Roman';
 }
+
+/* h1 {
+    color: red;
+    text-decoration: underline;
+} */
 body
 {
 
     /* background-color: lightblue; */
 }
 
-button{
+/* button{
     background-color: green;
     color: #fc0303;
-}
+} */
 
-* {
-  /* border: 2px solid green; */
+/* * {
+   border: 2px solid green; 
   background-color: beige;
-}
+} */
 
 #hello {
     color: blue;
@@ -25,7 +30,94 @@ button{
     color: orange;
 }
 
-#myclass, h2 {
-    background-color: rgb(0, 9, 128);
-    color: rgb(255, 230, 0);
+
+
+#myclass p{
+  text-align: left;
+  font-weight: 900;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#two{
+font-family: 'Courier New', Courier, monospace;
+}
+
+#onepara {
+    font-size: 25px;
+    line-height: normal;
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+}
+
+.heading_practice{
+    text-align: center;
+}
+
+.heading_practicep {
+    text-transform: capitalize;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 15px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 136, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    /* border-radius: 50%; */
+    /* padding-left: 25px; */
+    padding-right: 25px;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+h1{
+    border: 2px dashed brown;
+    text-align: center;
+    
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(25, 211, 0);
+    border-radius: 50%;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 50%;
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 50%;
 }
