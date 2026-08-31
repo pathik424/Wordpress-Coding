@@ -1,0 +1,937 @@
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1800px) {}
+
+@media screen and (max-width: 1700px) {}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1300px) {
+    .about-content {
+        margin-bottom: 60px;
+    }
+
+    .brand-row {
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    .vm-card {
+        padding: 24px;
+    }
+
+    .vm-card-text .title_h3 {
+        padding: 10px 0;
+    }
+
+    .vm-badge {
+        padding: 16px;
+    }
+
+    .pricing-card {
+        padding: 24px;
+    }
+
+    .pricing-card-tag {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .pricing-notes {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .about-content {
+    flex-direction: column;
+}
+ 
+.about-image {
+    width: 100%;
+}
+ 
+.about-years-card {
+    left: 0;
+    bottom: 0;
+}
+ 
+.about-image img {
+    max-height: 500px;
+    object-position: top;
+}
+    .hiw-step {
+        padding: 20px;
+    }
+
+    .hiw-icon-circle {
+        width: 100px;
+        overflow: hidden;
+    }
+
+    .hiw-icon-circle img {
+        width: 40px;
+    }
+
+    .hiw-step-label {
+        margin: 16px 0;
+    }
+
+    .hiw-step .title_h4 {
+        margin-bottom: 16px;
+    }
+
+    .about-left {
+        gap: 50px;
+    }
+
+    .about-highlights {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-years-card {
+        padding: 20px;
+        width: max-content;
+    }
+
+    .about-checklist {
+        max-width: unset;
+    }
+
+    .about-header {
+        margin-bottom: 50px;
+    }
+
+    .stat-card p {
+        text-align: center;
+    }
+
+    .center-head {
+        margin: 0 auto 30px;
+    }
+
+    h3,
+    .title_h3 {
+        font-size: 30px;
+    }
+
+    .pricing-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .twenty_four {
+        font-size: 20px;
+        padding: 16px;
+    }
+
+    h2,
+    .title_h2 {
+        font-size: 36px;
+    }
+
+    .about-left {
+        gap: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .hiw-step-label {
+        font-size: 16px;
+    }
+
+    .hiw-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .hiw-step {
+        padding: 0px;
+    }
+
+    .hiw-header {
+        margin-bottom: 50px;
+
+    }
+
+    .hiw-step:not(:first-child)::before {
+        display: none;
+    }
+
+    .about-content {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .about-highlights {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .about-years-label br {
+        display: none;
+    }
+
+    .about-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-card {
+        padding: 20px;
+        min-height: 150px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        height: auto;
+    }
+
+    .about-years-number {
+        font-size: 60px;
+    }
+
+    .hero-heading br {
+        display: none;
+    }
+
+    .service-card-large,
+    .service-card-small {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .service-card-large {
+        height: 380px;
+    }
+
+    .service-card-small {
+        height: 300px;
+    }
+
+    .vm-container {
+        grid-template-columns: 1fr;
+    }
+
+    .vm-card-image {
+        max-height: 300px;
+        min-height: 300px;
+    }
+
+    .vm_main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* .pricing-cards {
+        grid-template-columns: 1fr;
+    } */
+
+    .pricing-tabs {
+
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .brand-swiper {
+        max-width: 65%;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-years-card {
+        width: 35%;
+    }
+
+    .about-checklist {
+        flex: 1;
+    }
+
+    /************** MOBILE MENU **************/
+
+    /* Mobile icon */
+    .mobileIcon {
+        height: 48px;
+        width: 48px;
+        display: flex;
+        cursor: pointer;
+        z-index: 100000;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary-color);
+        border-radius: 100px;
+    }
+
+    .mobileIcon span,
+    .mobileIcon span::before,
+    .mobileIcon span::after {
+        content: "";
+        width: 25px;
+        height: 3px;
+        background: var(--white-color);
+        position: absolute;
+        transition: all 0.3s ease;
+    }
+
+    .mobileIcon span::before {
+        transform: translateY(-8px);
+    }
+
+    .mobileIcon span::after {
+        transform: translateY(8px);
+    }
+
+    /* Icon open */
+    .menu-open .mobileIcon {
+        background: var(--primary-color);
+    }
+
+    .menu-open .mobileIcon span {
+        background: transparent;
+        width: 38px;
+    }
+
+    .menu-open .mobileIcon span::before {
+        transform: rotate(45deg);
+        background: var(--white-color);
+        width: 38px;
+    }
+
+    .menu-open .mobileIcon span::after {
+        transform: rotate(-45deg);
+        background: var(--white-color);
+        width: 38px;
+    }
+
+    /* Fullscreen menu panel (RIGHT → LEFT) */
+    .header_right {
+        position: fixed;
+        inset: 0;
+        height: 100vh;
+        background: var(--white-color);
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in-out;
+        padding: 140px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: center;
+        overflow-y: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .menu-open .header-logos {
+        z-index: 9999;
+        position: relative;
+    }
+
+    .header_menu .menu {
+        align-items: flex-start;
+    }
+
+    /* Menu open state */
+    .menu-open .header_right {
+        transform: translateX(0);
+        align-items: center;
+    }
+
+    /* Menu list */
+    .header_menu ul.menu {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    /* Stop background scroll */
+    .menu-open {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .header-menu {
+        flex: unset;
+    }
+
+    .header-menu ul {
+        flex-direction: column;
+    }
+
+    .hero-container::after {
+        content: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .contact-right-col {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 40px;
+        padding-top: 40px;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .hero-container {
+        min-height: 450px;
+    }
+
+    .hero-heading {
+        font-size: 36px;
+    }
+
+    .hero-content {
+        bottom: 110px;
+        left: 32px;
+        right: 32px;
+        max-width: none;
+    }
+
+    h4,
+    .title_h4 {
+        font-size: 26px;
+    }
+
+    .about-checklist ul {
+        gap: 4px;
+    }
+
+    .about-section.cmn_pad {
+        padding: 0;
+    }
+
+    .hiw-header {
+        margin-bottom: 30px;
+    }
+
+    .vm-section.cmn_pad {
+        padding-top: 0;
+    }
+
+    .quote-container {
+        gap: 30px;
+    }
+
+    .black_btn {
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-brand {
+        width: 100%;
+    }
+
+    .footer_menu_links {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    .faq-question {
+        padding: 24px 30px;
+        font-size: 20px;
+    }
+
+    .faq-answer p {
+        padding: 0 30px 24px;
+    }
+
+    h2,
+    .title_h2 {
+        font-size: 32px;
+    }
+
+    .quote-text {
+        width: 100%;
+    }
+
+    .banner_btn_main::before {
+        bottom: 80px;
+    }
+
+    .vm-badge {
+        font-size: 20px;
+    }
+
+    .contact_main {
+        flex-direction: column;
+    }
+
+    .contact-right-col {
+        margin: 0;
+        border: none;
+    }
+
+    .form-row.submit-row {
+        margin: 0;
+    }
+
+    .contact-map {
+        border-radius: 16px;
+    }
+
+    .contact-info-list li {
+        margin-bottom: 16px;
+    }
+
+    .contact-left-col .desc {
+        margin-bottom: 18px;
+    }
+
+    .contact-left-col h2 {
+        font-size: 30px;
+    }
+
+    .services-header-text.hiw-header {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .quote-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 20px;
+    }
+
+    .quote-heading {
+        font-size: 28px;
+    }
+
+    .quote-description p {
+        font-size: 14px;
+    }
+
+    .btn-get-in-touch {
+        padding: 14px 22px;
+        font-size: 15px;
+    }
+
+    .contact-left-col .title_h2 br {
+        display: none !important;
+    }
+
+    .brand-row {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 16px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .brand-swiper {
+        width: 100%;
+        max-width: 100%;
+        min-height: 70px;
+    }
+
+    .brand-row-label {
+        min-width: 0;
+    }
+
+    .brands-heading {
+        font-size: 26px;
+    }
+
+    .brand-logo-img {
+        width: 110px;
+        height: 28px;
+    }
+
+    .contact-banner {
+        min-height: 250px;
+    }
+
+    .contact-banner-heading {
+        font-size: 32px;
+    }
+
+    .banner_btn_main::before {
+        bottom: 82px;
+    }
+
+    .hero-container {
+        min-height: 400px;
+    }
+
+    .hero-heading {
+        font-size: 32px;
+        line-height: 1.15;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .header-logos {
+        width: 35%;
+        overflow: hidden;
+    }
+
+    .header-logos a img {
+        width: 100%;
+    }
+
+    .hiw-steps {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+
+    .hiw-step:not(:first-child)::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -30px;
+        width: 100%;
+        height: 2px;
+        background: repeating-linear-gradient(to right,
+                var(--primary-color) 0 10px,
+                transparent 10px 20px);
+        display: inline-block;
+    }
+
+    .hiw-step:not(:last-child) {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hiw-icon-circle {
+        width: 80px;
+    }
+
+    .about-highlights {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-map iframe {
+        height: 300px;
+    }
+
+    .pricing-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-card-divider {
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .faq-header .twenty_four {
+        min-width: 120px;
+    }
+
+    .services-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .services-heading {
+        font-size: 26px;
+    }
+
+    .service-card-title {
+        font-size: 22px;
+    }
+
+    .service-card-text {
+        right: 24px;
+        bottom: 70px;
+    }
+
+    .service-card-arrow {
+        right: 20px;
+        bottom: 20px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .vm-title {
+        font-size: 22px;
+    }
+
+    .vm-card {
+        padding: 24px;
+    }
+
+    .vm-logo {
+        width: 180px;
+        height: 70px;
+    }
+
+    .pricing-tab {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .pricing-card-price {
+        font-size: 32px;
+    }
+
+    .faq-question {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    h2,
+    .title_h2 {
+        font-size: 30px;
+    }
+
+    .center-head h2 {
+        font-size: 30px !important;
+    }
+
+    .center-head {
+        margin-bottom: 30px !important;
+    }
+
+    h4,
+    .title_h4 {
+        font-size: 20px;
+    }
+
+    .brand-row {
+        gap: 16px;
+        padding: 16px 20px;
+    }
+
+    h3,
+    .title_h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .service-card-text {
+        bottom: 20px;
+    }
+
+    .about-years-card {
+        width: max-content;
+    }
+
+    .about-years-number {
+        font-size: 40px;
+    }
+
+    .hiw-header {
+        margin-bottom: 20px;
+    }
+
+    .twenty_four {
+        font-size: 18px;
+    }
+
+    .banner_btn_main {
+        padding: 16px 0 0 16px;
+        border-radius: 30px 0 0 0;
+    }
+
+    .hero-container {
+        min-height: 350px;
+    }
+
+    .hero-savings-card {
+        padding: 12px 16px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .hero-heading {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .banner_btn_main::before {
+        bottom: 78px;
+    }
+
+    .banner_btn_main::after {
+        left: -24px;
+    }
+
+    .brand-logo {
+        max-width: 100px;
+    }
+
+    .brand-swiper {
+        min-height: 50px;
+    }
+
+    .vm-card-image {
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    .faq-answer p {
+        padding: 0 20px 20px;
+    }
+
+    .banner_btn_main {
+        position: absolute;
+        bottom: 16px;
+        left: 10px;
+        right: unset;
+        z-index: 10;
+        background: none;
+        padding: 0;
+        border-radius: 24px 0 0 0;
+    }
+
+    .banner_btn_main::after,
+    .banner_btn_main::before {
+        content: none;
+
+    }
+
+    .hero-container {
+        border-radius: 20px;
+    }
+
+    .contact-left-col h2,
+    .contact-right-col h2 {
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+
+    .contact-info-list .info-text {
+        font-size: 16px;
+    }
+
+    .cf7-custom-form textarea {
+        min-height: 120px;
+        border-radius: 16px;
+    }
+
+    .contact-map iframe {
+        height: 250px;
+    }
+
+    .contact-map {
+        border-radius: 12px;
+    }
+
+
+    .pricing-card .black_btn {
+        font-size: 18px;
+    }
+
+    .pricing-tabs {
+        margin-bottom: 18px;
+    }
+
+    .pricing-notes li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .quote-heading {
+        font-size: 24px;
+    }
+
+    .hiw-heading {
+        font-size: 26px;
+    }
+
+    .hiw-icon-circle svg {
+        width: 38px;
+        height: 38px;
+    }
+
+    .stat-card {
+        padding: 16px;
+        min-height: 100px;
+    }
+
+    .about-stats {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-checklist li {
+        font-size: 16px;
+    }
+
+       .about-years-card {
+        left: 0;
+        bottom: 4px;
+    }
+
+    .hero-heading {
+        font-size: 26px;
+    }
+
+    h2,
+    .title_h2 {
+        font-size: 28px;
+    }
+
+    .hiw-step-label {
+        margin: 12px 0;
+    }
+
+    .hiw-step .title_h4 {
+        margin-bottom: 12px;
+    }
+
+    .header-logos {
+        width: 40%;
+        overflow: hidden;
+    }
+
+    .hero-content {
+        bottom: 100px;
+        left: 20px;
+    }
+
+    .about-content {
+        gap: 30px;
+    }
+.about-image img {
+    max-height: 300px;
+}
+
+
+    .footer-bottom {
+        line-height: 1.6;
+    }
+
+    .footer-menu {
+        gap: 12px;
+        margin-top: 16px;
+    }
+    .pricing-tab {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 374px) {}

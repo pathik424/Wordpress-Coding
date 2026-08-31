@@ -1,0 +1,15 @@
+{
+  "name": "acf/easy-steps",
+  "title": "Easy Steps",
+  "description": "How it works steps section for the home page.",
+  "category": "design",
+  "icon": "editor-ol",
+  "keywords": ["steps", "how it works", "home"],
+  "supports": {
+    "align": ["wide", "full"]
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "easy-steps.php"
+  }
+}

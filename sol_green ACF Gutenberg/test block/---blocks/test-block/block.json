@@ -1,0 +1,21 @@
+{
+    "name": "acf/test-block",
+    "title": "Test Block",
+    "description": "A test ACF Gutenberg block",
+    "category": "custom",
+    "icon": "welcome-widgets-menus",
+    "keywords": [
+        "test",
+        "custom"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "test-block.php"
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ]
+    }
+}
